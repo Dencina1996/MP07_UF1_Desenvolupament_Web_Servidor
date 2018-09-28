@@ -8,9 +8,7 @@
 	<?php
 
 		$Text = $_REQUEST['mytext'];
-		
-		echo "<b style='color:blue';>Texte</b>:\t$Text<br>";
-		echo "</p>";
+		echo "<b>Texte</b>:\t$Text<br>";
 
 		$Radio = $_REQUEST['myradio'];
 		echo "<b>Radio Button</b>:\t$Radio<br>";
@@ -22,8 +20,7 @@
 		echo "<b>Select</b>:\t$Select<br>";
 
 		$TextArea = $_REQUEST['mytextarea'];
-		echo "<b>Text Area</b>:\t$TextArea\n";		
-
+		echo "<b>Text Area</b>:\t$TextArea\n";	
 
 	?>
 
